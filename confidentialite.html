@@ -1,20 +1,49 @@
 <!DOCTYPE html>
-<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Politique de confidentialité — TermChat</title><style>body{font-family:system-ui,Segoe UI,Roboto,sans-serif;max-width:720px;margin:0 auto;padding:24px 18px;color:#111827;line-height:1.6}h1{font-size:24px;margin:0 0 4px}h2{font-size:17px;color:#2F80ED;margin:26px 0 6px}p,li{font-size:15px;color:#374151}.meta{color:#9CA3AF;font-size:13px;margin-bottom:22px}a{color:#2F80ED}.box{background:#F6F6F7;border-radius:12px;padding:14px 16px;margin:14px 0}footer{margin-top:36px;color:#9CA3AF;font-size:12px}</style></head><body>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — TermChat</title>
+<style>
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;max-width:720px;margin:0 auto;padding:20px;line-height:1.6;color:#111827;background:#fff}
+h1{font-size:1.6rem}h2{font-size:1.2rem;margin-top:1.8rem;color:#1565C0}
+a{color:#2F80ED}.maj,footer{color:#6B7280}
+@media (prefers-color-scheme:dark){body{background:#0B0F1A;color:#E5E7EB}h2,a{color:#7FB2F5}.maj,footer{color:#9CA3AF}}
+</style></head><body>
 <h1>Politique de confidentialité</h1>
-<p class="meta">Dernière mise à jour : 11/10/2026</p>
+<p class="maj">Dernière mise à jour : 21/10/2026</p>
+
 <h2>Ce que nous collectons</h2>
-<p>Pour créer ton compte : ton prénom, ton nom, ton pseudo, ton pays, et un mot de passe (stocké chiffré). Si tu actives la double authentification, un secret TOTP est aussi conservé. Ton identifiant TermChat (ex: TC010512345678) sert de clé unique de compte.</p>
+<p>Pour créer ton compte : ton prénom, ton nom, ton pseudo, ton pays et un mot de passe (stocké chiffré). Si tu actives la double authentification, un secret TOTP est aussi conservé. Ton identifiant TermChat (ex : TC010512345678) sert de clé unique de compte. Tu peux ajouter une bio, un statut, une couleur et une photo de profil, visibles par les personnes qui consultent ton profil.</p>
+
+<h2>Données techniques et sécurité</h2>
+<p>Pour la sécurité du service et la prévention des abus, le serveur tient un journal technique : l'action effectuée (jamais le contenu de tes messages), la date et l'heure, ton adresse IP et un identifiant de ton appareil. Il est conservé le temps nécessaire à la sécurité et à la prévention des abus.</p>
+<p>À l'inscription et à la connexion, ton adresse IP est aussi envoyée à un service tiers de localisation par IP (api.country.is) pour vérifier que le pays indiqué est cohérent avec ta connexion. Une incohérence peut déclencher une alerte de sécurité.</p>
+
 <h2>Tes messages</h2>
-<p>Les messages texte sont chiffrés de bout en bout : ton téléphone chiffre le contenu avant envoi, et seul le destinataire peut le déchiffrer. Le serveur ne voit pas le texte des messages chiffrés (signalés par un petit cadenas). Si ton contact n&#x27;a pas encore de clé de chiffrement, le message est envoyé sans chiffrement de bout en bout. Les fichiers et messages vocaux, eux, ne sont pas chiffrés de bout en bout actuellement. Les messages vocaux sont conservés temporairement sur le serveur (environ 24 heures), puis supprimés.</p>
-<h2>École (EduMap)</h2>
-<p>Les informations et photos d&#x27;écoles ajoutées via EduMap (nom, quartier, position, photos) sont visibles par tous les utilisateurs de l&#x27;app — ce ne sont pas des données personnelles liées à ton compte.</p>
+<p>Les messages texte sont chiffrés de bout en bout : ton téléphone chiffre le contenu avant envoi, et seul le destinataire peut le déchiffrer. Le serveur ne voit pas le texte des messages chiffrés (signalés par un petit cadenas). Si ton contact n'a pas encore de clé de chiffrement, le message est envoyé sans chiffrement de bout en bout. Les fichiers et messages vocaux, eux, ne sont pas chiffrés de bout en bout actuellement. Les messages vocaux sont conservés temporairement sur le serveur (environ 24 heures), puis supprimés.</p>
+
+<h2>Localisation et école (EduMap)</h2>
+<p>L'onglet École utilise la position de ton téléphone uniquement quand tu touches « Me localiser » ou quand tu proposes une école. Ta position personnelle n'est pas enregistrée ; seule la position de l'école que tu proposes l'est. Les informations et photos d'écoles (nom, quartier, position, photos) sont visibles par tous les utilisateurs de l'app : ce ne sont pas des données personnelles liées à ton compte.</p>
+
+<h2>Notifications</h2>
+<p>Si tu actives les notifications, un jeton propre à ton téléphone est enregistré sur le serveur et transmis au service de notifications (Expo et Google) pour t'envoyer des alertes. Tu peux les désactiver à tout moment dans Paramètres.</p>
+
+<h2>Code PIN</h2>
+<p>Le code PIN de verrouillage reste uniquement sur ton téléphone, dans le stockage sécurisé de l'appareil. Il n'est jamais envoyé à nos serveurs.</p>
+
 <h2>Avec qui on partage</h2>
-<p>Tes données ne sont pas vendues ni partagées avec des tiers à des fins publicitaires. Elles sont stockées sur l&#x27;infrastructure technique utilisée par TermChat (hébergement Railway, base de données Firebase) pour faire fonctionner le service.</p>
+<p>Tes données ne sont pas vendues ni partagées avec des tiers à des fins publicitaires. Elles sont traitées par les services techniques nécessaires au fonctionnement de TermChat : Railway (hébergement du serveur), Firebase / Google (base de données), Expo (notifications) et api.country.is (localisation par IP).</p>
+
+<h2>Où sont stockées tes données</h2>
+<p>Le serveur est hébergé chez Railway (région : région Railway). La base de données Firebase est située dans la région : région Firebase. Tes données peuvent donc être stockées et traitées hors de ton pays.</p>
+
 <h2>Tes choix</h2>
-<p>Tu peux modifier ou supprimer ton pseudo, ta bio, ton statut, ta couleur et ta photo de profil à tout moment depuis l&#x27;app. Tu peux aussi supprimer des messages ou des conversations entières. Tu peux supprimer ton compte depuis Paramètres → Compte → Supprimer mon compte. Le compte est désactivé immédiatement ; ton profil, ta photo, tes conversations et tes autres données personnelles sont ensuite effacés définitivement après 30 jours (tu peux annuler pendant ce délai en contactant l&#x27;assistance). Nous conservons seulement, pour prévenir les abus et respecter nos obligations légales, les signalements, le journal de sécurité (sans contenu de messages) et les enregistrements de paiement. Si tu ne peux plus ouvrir l&#x27;application, demande la suppression sur la page web « Suppression de compte » ou via la page Nous contacter.</p>
+<p>Tu peux modifier ou supprimer ton pseudo, ta bio, ton statut, ta couleur et ta photo de profil à tout moment depuis l'app. Tu peux aussi supprimer des messages ou des conversations entières. Tu peux supprimer ton compte depuis Compte → Paramètres → Supprimer mon compte. Le compte est désactivé immédiatement ; ton profil, ta photo, tes conversations et tes autres données personnelles sont ensuite effacés définitivement après 30 jours (tu peux annuler pendant ce délai en contactant l'assistance). Nous conservons seulement, pour prévenir les abus et respecter nos obligations légales, les signalements, le journal de sécurité (sans contenu de messages) et les enregistrements de paiement. Si tu ne peux plus ouvrir l'application, demande la suppression sur la page web « Suppression de compte » ou via la page Nous contacter.</p>
+
 <h2>Abonnement Premium et dons</h2>
-<p>Le Premium coûte 5 000 FCFA pour 5 mois. Il sert à financer la maintenance, les serveurs et le développement de TermChat. Le paiement se fait sur une page dédiée, en dehors de l&#x27;application. Les dons sont volontaires : ils soutiennent TermChat, la création de communautés et, selon les possibilités du projet, de petits projets. Plus de détails dans Paramètres → Abonnement Premium et Soutenir TermChat.</p>
+<p>Le Premium coûte 5 000 FCFA pour 5 mois. Il sert à financer la maintenance, les serveurs et le développement de TermChat. Le paiement se fait sur une page dédiée, en dehors de l'application. Les dons sont volontaires : ils soutiennent TermChat, la création de communautés et, selon les possibilités du projet, de petits projets. Plus de détails dans Paramètres → Abonnement Premium et Soutenir TermChat.</p>
+
 <h2>Contact</h2>
-<p>Pour toute question sur tes données ou cette politique, contacte AbouDev Labs (voir Compte → Aide → À propos).</p>
-<footer>TermChat · DEV.D.A.J — AbouDev Labs · Côte d'Ivoire</footer>
+<p>Pour toute question sur tes données ou cette politique, ou pour demander la suppression de tes données : votre e-mail ou numéro WhatsApp.</p>
+
+<footer><p>TermChat · DEV.D.A.J — AbouDev Labs · Côte d'Ivoire</p></footer>
 </body></html>
